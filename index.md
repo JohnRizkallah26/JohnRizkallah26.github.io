@@ -101,11 +101,17 @@ title: Home
 }
 
 .image-gallery img {
-  max-width: 600px; /* larger image */
+  max-width: 600px;
   width: 100%;
   height: auto;
   border-radius: 12px;
   border: 3px solid #3b82f6;
 }
+
+/* Footer overrides */
+footer, .site-footer {
+  color: #3b82f6 !important; /* force same blue as theme */
+}
 </style>
-   
+
+      
