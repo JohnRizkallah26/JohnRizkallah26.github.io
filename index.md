@@ -9,10 +9,10 @@ title: Home
   <details>
     <summary>👤 About</summary>
     <div class="dropdown-content">
-      Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
-      I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
-      This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.  
-      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.  
+      Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.
+      I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.
+      This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.
+      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.
       I have lived in Florida since 2021, and will be leaving the Navy in 2026.
     </div>
   </details>
@@ -46,6 +46,7 @@ title: Home
 
 <div class="image-gallery">
   <figure>
+    <!-- Try this direct image link -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Maine_Coon_kitten.jpg" alt="Maine Coon Kitten" />
     <figcaption>Maine Coon Kitten — curious and fluffy</figcaption>
   </figure>
@@ -57,7 +58,7 @@ title: Home
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #2c2c2c; /* darker gray to blend with Midnight theme */
+  background: #2c2c2c;
   padding: 15px;
   border-radius: 6px;
   max-width: 600px;
@@ -69,8 +70,8 @@ title: Home
   cursor: pointer;
   font-weight: bold;
   padding: 10px;
-  background: #444; /* darker button background */
-  color: #3b82f6;   /* lighter shade of blue */
+  background: #444;
+  color: #3b82f6;   /* lighter blue */
   border-radius: 6px;
   list-style: none;
 }
@@ -83,7 +84,7 @@ title: Home
 /* Hover effect */
 .dropdown-nav summary:hover {
   background: #555;
-  color: #1d4ed8; /* slightly darker blue on hover */
+  color: #1d4ed8;
 }
 
 /* Content styling */
@@ -104,7 +105,9 @@ title: Home
 }
 
 .image-gallery img {
-  max-width: 500px; /* larger size */
+  max-width: 600px; /* larger image */
+  width: 100%;
+  height: auto;
   border-radius: 12px;
   border: 3px solid #3b82f6; /* blue border accent */
 }
@@ -114,7 +117,7 @@ title: Home
   text-align: center;
   margin-top: 8px;
   font-size: 1.1em;
-  color: #3b82f6; /* lighter blue to match theme */
+  color: #3b82f6;
   font-weight: bold;
 }
 </style>
