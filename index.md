@@ -3,13 +3,6 @@
 
 # Welcome to My Site
 
-<nav style="display:flex; gap:20px; background:#f5f5f5; padding:10px; border-radius:6px;">
-  <a href="#home" style="text-decoration:none; font-weight:bold;">Home</a>
-  <a href="#about" style="text-decoration:none; font-weight:bold;">About</a>
-  <a href="#projects" style="text-decoration:none; font-weight:bold;">Projects</a>
-  <a href="#education" style="text-decoration:none; font-weight:bold;">Education</a>
-  <a href="#contact" style="text-decoration:none; font-weight:bold;">Contact</a>
-</nav>
 
 ---
 
