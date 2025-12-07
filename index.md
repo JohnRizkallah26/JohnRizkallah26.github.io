@@ -9,10 +9,10 @@ title: Home
   <details>
     <summary>👤 About</summary>
     <div class="dropdown-content">
-      Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.
-      I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.
-      This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.
-      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.
+      Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
+      I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
+      This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.  
+      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.  
       I have lived in Florida since 2021, and will be leaving the Navy in 2026.
     </div>
   </details>
@@ -45,11 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <figure>
-    <!-- Try this direct image link -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Maine_Coon_kitten.jpg" alt="Maine Coon Kitten" />
-    <figcaption>Maine Coon Kitten — curious and fluffy</figcaption>
-  </figure>
+  <img src="https://cdn2.thecatapi.com/images/4i4.jpg" alt="Maine Coon Kitten" />
 </div>
 
 <style>
@@ -71,7 +67,7 @@ title: Home
   font-weight: bold;
   padding: 10px;
   background: #444;
-  color: #3b82f6;   /* lighter blue */
+  color: #3b82f6;   /* lighter shade of blue */
   border-radius: 6px;
   list-style: none;
 }
@@ -91,8 +87,8 @@ title: Home
 .dropdown-content {
   margin-top: 8px;
   padding: 10px;
-  background: #e6e6e6; /* off-white */
-  color: #3b82f6;      /* lighter blue text */
+  background: #e6e6e6;
+  color: #3b82f6;
   border: 1px solid #888;
   border-radius: 6px;
 }
@@ -109,15 +105,6 @@ title: Home
   width: 100%;
   height: auto;
   border-radius: 12px;
-  border: 3px solid #3b82f6; /* blue border accent */
-}
-
-/* Caption styling */
-.image-gallery figcaption {
-  text-align: center;
-  margin-top: 8px;
-  font-size: 1.1em;
-  color: #3b82f6;
-  font-weight: bold;
+  border: 3px solid #3b82f6;
 }
 </style>
