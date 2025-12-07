@@ -114,14 +114,13 @@ footer, .site-footer {
 }
 
 /* Header banner overrides */
-header a,
-header span,
+.page-header .project-tagline,
 .page-header a,
 .page-header span {
   color: #3b82f6 !important;   /* uniform blue */
+  font-weight: bold;           /* optional: make them stand out */
 }
 
-header a:hover,
 .page-header a:hover {
   color: #1d4ed8 !important;   /* darker blue on hover */
 }
