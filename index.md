@@ -12,8 +12,8 @@ title: Home
       Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
       I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
       This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.  
-      However, I also made hundreds of mistakes, thanks to some amazing leaders and collegues, I have been able to learn from them. 
-      I have lived in Florida since 2021, and will be leaving the Navy in 2026 en route to San Antonio, Texas. At home I have my Wife of 4 years (Lexi) and my son Eli. 
+      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.  
+      I have lived in Florida since 2021, and will be leaving the Navy in 2026.
     </div>
   </details>
 
@@ -42,6 +42,16 @@ title: Home
   </details>
 </nav>
 
+---
+
+## ✈️ Fighter Jet, 🐱 Cute Cat, 🎄 Christmas Tree
+
+<div class="image-gallery">
+  <img src="https://simpleflying.com/f-18-fighter-jet-history/" alt="F-18 Fighter Jet" />
+  <img src="https://wallpaperaccess.com/orange-cat" alt="Orange Cute Cat" />
+  <img src="https://www.southernliving.com/food/holidays-occasions/christmas-tree-gallery" alt="Christmas Tree" />
+</div>
+
 <style>
 /* Navigation container */
 .dropdown-nav {
@@ -61,7 +71,7 @@ title: Home
   font-weight: bold;
   padding: 10px;
   background: #444; /* darker button background */
-  color: #1e3a8a;   /* dark blue text */
+  color: #3b82f6;   /* lighter shade of blue */
   border-radius: 6px;
   list-style: none;
 }
@@ -74,16 +84,31 @@ title: Home
 /* Hover effect */
 .dropdown-nav summary:hover {
   background: #555;
-  color: #0f172a; /* even darker navy on hover */
+  color: #1d4ed8; /* slightly darker blue on hover */
 }
 
 /* Content styling */
 .dropdown-content {
   margin-top: 8px;
   padding: 10px;
-  background: #e6e6e6; /* slightly darker than pure white */
-  color: #1e3a8a;      /* dark blue text for readability */
+  background: #e6e6e6; /* off-white */
+  color: #3b82f6;      /* lighter blue text */
   border: 1px solid #888;
   border-radius: 6px;
 }
+
+/* Image gallery styling */
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.image-gallery img {
+  max-width: 200px;
+  border-radius: 8px;
+  border: 2px solid #3b82f6; /* blue border accent */
+}
 </style>
+
