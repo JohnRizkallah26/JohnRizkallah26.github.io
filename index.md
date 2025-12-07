@@ -12,8 +12,8 @@ title: Home
       Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
       I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
       This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.  
-      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.  
-      I have lived in Florida since 2021, and will be leaving the Navy in 2026.
+      However, I also made hundreds of mistakes, thanks to some amazing leaders and collegues, I have been able to learn from them. 
+      I have lived in Florida since 2021, and will be leaving the Navy in 2026 en route to San Antonio, Texas. At home I have my Wife of 4 years (Lexi) and my son Eli. 
     </div>
   </details>
 
@@ -48,7 +48,7 @@ title: Home
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #f5f5f5;
+  background: #2c2c2c; /* darker gray to blend with Midnight theme */
   padding: 15px;
   border-radius: 6px;
   max-width: 600px;
@@ -60,7 +60,8 @@ title: Home
   cursor: pointer;
   font-weight: bold;
   padding: 10px;
-  background: #eee;
+  background: #444; /* darker button background */
+  color: #1e3a8a;   /* dark blue text */
   border-radius: 6px;
   list-style: none;
 }
@@ -72,15 +73,17 @@ title: Home
 
 /* Hover effect */
 .dropdown-nav summary:hover {
-  background: #ddd;
+  background: #555;
+  color: #0f172a; /* even darker navy on hover */
 }
 
 /* Content styling */
 .dropdown-content {
   margin-top: 8px;
   padding: 10px;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #e6e6e6; /* slightly darker than pure white */
+  color: #1e3a8a;      /* dark blue text for readability */
+  border: 1px solid #888;
   border-radius: 6px;
 }
 </style>
