@@ -45,15 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <a href="https://upload.wikimedia.org/wikipedia/commons/0/0e/F-18_Hornet.jpg" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/F-18_Hornet.jpg" alt="F-18 Fighter Jet" />
-  </a>
-  <a href="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" target="_blank">
-    <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Orange Cute Cat" />
-  </a>
-  <a href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Christmas_tree_at_the_Capitol.jpg" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Christmas_tree_at_the_Capitol.jpg" alt="Christmas Tree" />
-  </a>
+  <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Maine Coon Kitten" />
 </div>
 
 <style>
@@ -105,16 +97,16 @@ title: Home
 .image-gallery {
   display: flex;
   justify-content: center;
-  gap: 20px;
   margin-top: 30px;
 }
 
 .image-gallery img {
-  max-width: 200px;
-  border-radius: 8px;
-  border: 2px solid #3b82f6; /* blue border accent */
+  max-width: 400px; /* larger size */
+  border-radius: 12px;
+  border: 3px solid #3b82f6; /* blue border accent */
 }
 </style>
 
+    
  
  
