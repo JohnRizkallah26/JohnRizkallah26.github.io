@@ -44,8 +44,6 @@ title: Home
 
 ---
 
-## ✈️ Fighter Jet, 🐱 Cute Cat, 🎄 Christmas Tree
-
 <div class="image-gallery">
   <img src="https://simpleflying.com/f-18-fighter-jet-history/" alt="F-18 Fighter Jet" />
   <img src="https://wallpaperaccess.com/orange-cat" alt="Orange Cute Cat" />
@@ -111,4 +109,3 @@ title: Home
   border: 2px solid #3b82f6; /* blue border accent */
 }
 </style>
-
