@@ -46,7 +46,7 @@ title: Home
 
 <div class="image-gallery">
   <figure>
-    <img src="https://cdn2.thecatapi.com/images/4i4.jpg" alt="Maine Coon Kitten" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Maine_Coon_kitten.jpg" alt="Maine Coon Kitten" />
     <figcaption>Maine Coon Kitten — curious and fluffy</figcaption>
   </figure>
 </div>
