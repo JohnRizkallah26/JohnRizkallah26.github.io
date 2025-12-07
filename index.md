@@ -45,7 +45,10 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Maine Coon Kitten" />
+  <figure>
+    <img src="https://cdn2.thecatapi.com/images/4i4.jpg" alt="Maine Coon Kitten" />
+    <figcaption>Maine Coon Kitten — curious and fluffy</figcaption>
+  </figure>
 </div>
 
 <style>
@@ -101,12 +104,17 @@ title: Home
 }
 
 .image-gallery img {
-  max-width: 400px; /* larger size */
+  max-width: 500px; /* larger size */
   border-radius: 12px;
   border: 3px solid #3b82f6; /* blue border accent */
 }
-</style>
 
-    
- 
- 
+/* Caption styling */
+.image-gallery figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 1.1em;
+  color: #3b82f6; /* lighter blue to match theme */
+  font-weight: bold;
+}
+</style>
