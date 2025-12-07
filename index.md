@@ -45,9 +45,15 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="https://wallup.net/wp-content/uploads/2019/09/676873-f-18-fighter-jet-military-plane-airplane-usa.jpg" alt="F-18 Fighter Jet" />
-  <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Orange Cute Cat" />
-  <img src="https://blog.stockvault.net/wp-content/uploads/2017/12/christmas-tree.jpg" alt="Christmas Tree" />
+  <a href="https://upload.wikimedia.org/wikipedia/commons/0/0e/F-18_Hornet.jpg" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/F-18_Hornet.jpg" alt="F-18 Fighter Jet" />
+  </a>
+  <a href="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" target="_blank">
+    <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Orange Cute Cat" />
+  </a>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Christmas_tree_at_the_Capitol.jpg" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Christmas_tree_at_the_Capitol.jpg" alt="Christmas Tree" />
+  </a>
 </div>
 
 <style>
@@ -109,3 +115,6 @@ title: Home
   border: 2px solid #3b82f6; /* blue border accent */
 }
 </style>
+
+ 
+ 
