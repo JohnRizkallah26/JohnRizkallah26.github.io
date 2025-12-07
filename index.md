@@ -16,20 +16,23 @@ title: Home
 ---
 
 ## 🏠 Home
-Welcome to the homepage! This is your landing section.
+Welcome to the homepage! 
 
 ## 👤 About
-Write a short bio or background here.
+Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School. I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain. This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuble experience with computer systems. However, I also made hundreds of mistakes, which I am also extremely grateful for as it has molded me into a better human. I have lived in Florida since 2021, and will be leaving the Navy in 2026.
 
 ## 💻 Projects
 Showcase your GitHub repositories, portfolio, or case studies.
 
-## ✍️ Blog
-Add posts, tutorials, or updates.
+## ✍️ Education/Credentials
+Security + (Expires in 2028).
+B.S in Cybersecurity
+Google Cybersecurity Certificate
+Secret Clearance
 
 ## 📬 Contact
-Provide email, social links, or a contact form.
+johnrizkallah3@gmail.com
 
 
-l
+
 
