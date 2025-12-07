@@ -35,9 +35,9 @@ title: Home
   </details>
 
   <details>
-    <summary>📬 Contact Info</summary>
+    <summary>📚 Helpful Publications</summary>
     <div class="dropdown-content">
-      Email: johnrizkallah3@gmail.com
+      <a href="https://www.nist.gov" target="_blank">Visit NIST Website</a>
     </div>
   </details>
 </nav>
@@ -109,3 +109,4 @@ title: Home
   border: 2px solid #3b82f6; /* blue border accent */
 }
 </style>
+
