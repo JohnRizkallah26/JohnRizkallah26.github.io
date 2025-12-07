@@ -7,7 +7,7 @@ title: Home
 
 <nav class="dropdown-nav">
   <details>
-    <summary> About</summary>
+    <summary>👤 About</summary>
     <div class="dropdown-content">
       Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
       I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
@@ -18,14 +18,14 @@ title: Home
   </details>
 
   <details>
-    <summary> Projects</summary>
+    <summary>💻 Projects</summary>
     <div class="dropdown-content">
       Showcase your GitHub repositories, portfolio, or case studies.
     </div>
   </details>
 
   <details>
-    <summary> Education/Credentials</summary>
+    <summary>✍️ Education/Credentials</summary>
     <div class="dropdown-content">
       Security + (Expires in 2028)<br>
       B.S in Cybersecurity<br>
@@ -35,8 +35,9 @@ title: Home
   </details>
 
   <details>
-    <summary> Helpful Publiations</summary>
+    <summary>📬 Contact Info</summary>
     <div class="dropdown-content">
+      Email: johnrizkallah3@gmail.com
     </div>
   </details>
 </nav>
@@ -44,9 +45,9 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="https://simpleflying.com/f-18-fighter-jet-history/" alt="F-18 Fighter Jet" />
-  <img src="https://wallpaperaccess.com/orange-cat" alt="Orange Cute Cat" />
-  <img src="https://www.southernliving.com/food/holidays-occasions/christmas-tree-gallery" alt="Christmas Tree" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/F-18_Hornet.jpg" alt="F-18 Fighter Jet" />
+  <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="Orange Cute Cat" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Christmas_tree_at_the_Capitol.jpg" alt="Christmas Tree" />
 </div>
 
 <style>
