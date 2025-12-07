@@ -45,7 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="https://images.unsplash.com/photo-1519052537078-e6a6c1f1b2b4?q=80&auto=format&fit=crop&w=1200" alt="Maine Coon Kitten" />
+  <img src="/Screenshot%202025-12-07%20161904.png" alt="Maine Coon Kitten" />
 </div>
 
 <style>
@@ -101,10 +101,11 @@ title: Home
 }
 
 .image-gallery img {
-  max-width: 800px; /* bigger image */
+  max-width: 600px; /* larger image */
   width: 100%;
   height: auto;
   border-radius: 12px;
   border: 3px solid #3b82f6;
 }
 </style>
+   
