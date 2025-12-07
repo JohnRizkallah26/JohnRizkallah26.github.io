@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Site
+# Welcome to My Site!
 
 <nav class="dropdown-nav">
   <details>
@@ -110,8 +110,19 @@ title: Home
 
 /* Footer overrides */
 footer, .site-footer {
-  color: #3b82f6 !important; /* force same blue as theme */
+  color: #3b82f6 !important;
+}
+
+/* Header banner overrides */
+header a,
+header span,
+.page-header a,
+.page-header span {
+  color: #3b82f6 !important;   /* uniform blue */
+}
+
+header a:hover,
+.page-header a:hover {
+  color: #1d4ed8 !important;   /* darker blue on hover */
 }
 </style>
-
-      
