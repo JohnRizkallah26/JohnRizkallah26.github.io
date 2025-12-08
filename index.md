@@ -45,7 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="IMG_6302.PNG" alt="Cyber Old GLory" />
+  <img src="IMG_6302.PNG" alt="Cyber Old Glory" />
 </div>
 
 <style>
@@ -108,10 +108,6 @@ title: Home
   border: 3px solid #3b82f6;
 }
 
-/* Footer overrides */
-footer, .site-footer {
-  color: #3b82f6 !important;
-}
 
 /* Header banner overrides */
 .page-header .project-tagline,
@@ -121,7 +117,6 @@ footer, .site-footer {
   font-weight: bold;           /* optional: make them stand out */
 }
 
-.page-header a:hover {
-  color: #1d4ed8 !important;   /* darker blue on hover */
-}
+
+
 </style>
