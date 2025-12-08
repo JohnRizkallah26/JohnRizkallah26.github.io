@@ -30,7 +30,7 @@ title: Home
   <details>
     <summary>✍️ Education/Credentials</summary>
     <div class="dropdown-content">
-      Security + (Expires in 2028)<br>
+      Comptia Security + (Expires in 2028)<br>
       B.S in Cybersecurity<br>
       Google Cybersecurity Certificate<br>
       Secret Clearance
