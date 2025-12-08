@@ -45,7 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="IMG_6302.png" alt="Cyber Old GLory" />
+  <img src="IMG_6302.PNG" alt="Cyber Old GLory" />
 </div>
 
 <style>
