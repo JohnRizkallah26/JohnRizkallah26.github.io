@@ -17,12 +17,15 @@ title: Home
     </div>
   </details>
 
-  <details>
-    <summary>💻 Projects</summary>
-    <div class="dropdown-content">
-      Showcase your GitHub repositories, portfolio, or case studies.
-    </div>
-  </details>
+ <details>
+  <summary>💻 Projects</summary>
+  <div class="dropdown-content">
+    <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">
+      Home Network Recon Lab
+    </a>
+  </div>
+</details>
+
 
   <details>
     <summary>✍️ Education/Credentials</summary>
