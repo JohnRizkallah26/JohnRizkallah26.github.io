@@ -45,7 +45,7 @@ title: Home
 ---
 
 <div class="image-gallery">
-  <img src="/Screenshot%202025-12-07%20161904.png" alt="Maine Coon Kitten" />
+  <img src="IMG_6302.png" alt="Cyber Old GLory" />
 </div>
 
 <style>
