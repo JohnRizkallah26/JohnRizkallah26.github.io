@@ -108,7 +108,7 @@ title: Home
 }
 
 .dropdown-content a:hover {
-  color: #1d4ed8;        /* Darker blue on hover */
+  color: #3b82fb;        
   text-decoration: underline;
 }
 
