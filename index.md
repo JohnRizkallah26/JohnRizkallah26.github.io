@@ -26,7 +26,6 @@ title: Home
   </div>
 </details>
 
-
   <details>
     <summary>✍️ Education/Credentials</summary>
     <div class="dropdown-content">
@@ -49,7 +48,6 @@ title: Home
   </div>
 </details>
 </nav>
-
 
 ---
 
@@ -102,6 +100,18 @@ title: Home
   border-radius: 6px;
 }
 
+/* Style links inside dropdowns */
+.dropdown-content a {
+  color: #3b82f6;        /* Blue text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {
+  color: #1d4ed8;        /* Darker blue on hover */
+  text-decoration: underline;
+}
+
 /* Image gallery styling */
 .image-gallery {
   display: flex;
@@ -116,10 +126,4 @@ title: Home
   border-radius: 12px;
   border: 3px solid #3b82f6;
 }
-
-
-
-
-
-
 </style>
