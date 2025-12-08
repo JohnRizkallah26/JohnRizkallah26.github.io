@@ -34,13 +34,19 @@ title: Home
     </div>
   </details>
 
-  <details>
-    <summary>📚 Helpful Publications</summary>
-    <div class="dropdown-content">
-      <a href="https://www.nist.gov" target="_blank">Visit NIST Website</a>
-    </div>
-  </details>
+ <details>
+  <summary>📚 Helpful Publications</summary>
+  <div class="dropdown-content">
+    <a href="https://www.nist.gov" target="_blank">Visit NIST Website</a><br>
+    <a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework (CSF)</a><br>
+    <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank">NIST SP 800-53 Security Controls</a><br>
+    <a href="https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final" target="_blank">NIST SP 800-171 (CUI Protection)</a><br>
+    <a href="https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final" target="_blank">NIST SP 800-61 Incident Response Guide</a><br>
+    <a href="https://csrc.nist.gov/projects/risk-management" target="_blank">NIST Risk Management Framework (RMF)</a>
+  </div>
+</details>
 </nav>
+
 
 ---
 
