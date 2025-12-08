@@ -95,22 +95,28 @@ title: Home
   margin-top: 8px;
   padding: 10px;
   background: #e6e6e6;
-  color: #3b82f6;
+  color: #1d4ed8;              /* Dark blue text */
   border: 1px solid #888;
   border-radius: 6px;
+  font-family: "Segoe UI", Arial, sans-serif; /* Modern, clean font */
+  font-weight: normal;         /* Uniform weight */
+  font-size: 15px;             /* Slightly modern sizing */
+  line-height: 1.6;            /* Better readability */
 }
 
 /* Style links inside dropdowns */
 .dropdown-content a {
-  color: #3b82f6;        /* Blue text */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold;
+  color: #1d4ed8;              /* Dark blue links */
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .dropdown-content a:hover {
-  color: #3b82fb;        
+  color: #0f172a;              /* Even darker blue on hover */
   text-decoration: underline;
 }
+
 
 /* Image gallery styling */
 .image-gallery {
