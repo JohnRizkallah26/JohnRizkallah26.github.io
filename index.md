@@ -87,7 +87,7 @@ title: Home
 /* Hover effect */
 .dropdown-nav summary:hover {
   background: #555;
-  color: #1d4ed8;
+  color: #3b82f6;
 }
 
 /* Content styling */
