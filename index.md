@@ -22,7 +22,8 @@ title: Home
   <div class="dropdown-content">
     <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">
       Home Network Recon Lab
-    <a href=""https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">
+    </a>
+    <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">
       Windows Group Policy Editor Walkthrough
     </a>
   </div>
