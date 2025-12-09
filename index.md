@@ -19,10 +19,9 @@ title: Home
 
 <details>
   <summary>💻 Projects</summary>
-  <ul>
-    <li><a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a></li>
-    <li><a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">Windows Group Policy Editor Walkthrough</a></li>
-  </ul>
+    <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a><br>
+    <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">Windows Group Policy Editor Walkthrough</a>
+  </div>
 </details>
 
 
