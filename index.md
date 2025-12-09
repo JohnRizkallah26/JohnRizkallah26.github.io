@@ -17,17 +17,14 @@ title: Home
     </div>
   </details>
 
- <details>
+<details>
   <summary>💻 Projects</summary>
-  <div class="dropdown-content">
-    <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">
-      Home Network Recon Lab
-    </a>
-    <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">
-      Windows Group Policy Editor Walkthrough
-    </a>
-  </div>
+  <ul>
+    <li><a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a></li>
+    <li><a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Editor-Walkthrough" target="_blank">Windows Group Policy Editor Walkthrough</a></li>
+  </ul>
 </details>
+
 
   <details>
     <summary>✍️ Education/Credentials</summary>
