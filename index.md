@@ -19,6 +19,7 @@ title: Home
 
 <details>
   <summary>💻 Projects</summary>
+  <div class="dropdown-content">
     <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a><br>
     <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Walkthrough" target="_blank">Windows Group Policy Walkthrough</a>
   </div>
