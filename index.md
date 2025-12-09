@@ -10,8 +10,7 @@ title: Home
     <summary>👤 About</summary>
     <div class="dropdown-content">
       I am originally from Rochester, NY & attended both Hilton and Brockport High Schools. Upon graduation in 2017, I enlisted in the US Navy as an Operations Specialist. I spent 3 years abroad in Rota, Spain. During this tour I traveled 12 countries and gained valuble experience in technology. In 2021 I transferred to Jacksonville, FL. During this tour, I was sent back overseas and provided support to Centcom. During this period, I also met my Wife Lexi. In 2023 I transferred to NAS Key West where I serve as a Tactical Air Controller. I had my Son "Eli" here, and have made plenty of memories with my wife. I have spent much of this period hammering out cybersecurity education and certifications. I will be leaving the Navy in 2026, and will be working as a Cybersecurity Administrator. 
-      
-  </div>
+    </div>
   </details>
 
 <details>
