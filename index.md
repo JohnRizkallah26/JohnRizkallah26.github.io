@@ -9,11 +9,8 @@ title: Home
   <details>
     <summary>👤 About</summary>
     <div class="dropdown-content">
-      Hey everyone! I am originally from Rochester, NY & graduated from Brockport High School.  
-      I enlisted in the Navy in 2017 as an Operations Specialist. I spent 3 years abroad in Rota, Spain.  
-      This experience heavily shaped me as it forced me out of my comfort zone. I made hundreds of friends and gained valuable experience with computer systems.  
-      However, I also made hundreds of mistakes, which I am extremely grateful for as it molded me into a better human.  
-      I have lived in Florida since 2021, and will be leaving the Navy in 2026.
+      I am originally from Rochester, NY & attended both Hilton and Brockport High Schools. Upon graduation in 2017, I enlisted in the US Navy as an Operations Specialist. I spent 3 years abroad in Rota, Spain. During this tour I traveled 12 countries and gained valuble experience in technology. In 2021 I transferred to Jacksonville, FL. During this tour, I was sent back overseas and provided support to Centcom. During this period, I also met my Wife Lexi. In 2023 I transferred to NAS Key West where I serve as a Tactical Air Controller. I had my Son "Eli" here, and have made plenty of memories with my wife. I have spent much of this period hammering out cybersecurity education and certifications. I will be leaving the Navy in 2026, and will be working as a Cybersecurity Administrator. 
+      
     </div>
   </details>
 
