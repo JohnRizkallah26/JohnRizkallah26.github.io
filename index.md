@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Site!
+# Welcome to My Platform!
 
 <!-- Live GMT Clock -->
 <div id="gmt-clock"></div>
@@ -11,11 +11,14 @@ title: Home
 <!-- Rotating Quotes -->
 <div id="quote-box"></div>
 
+<!-- Visitor IP & Location -->
+<div id="visitor-info"></div>
+
 <nav class="dropdown-nav">
   <details>
     <summary>👤 About</summary>
     <div class="dropdown-content">
-    I am originally from Rochester, NY, and attended both Hilton and Brockport High Schools. Upon graduation in 2017, I enlisted in the US Navy as an Operations Specialist. I spent 3 years abroad in Rota, Spain. During this tour, I traveled to 12 countries and gained valuable experience in technology. In 2021, I transferred to Jacksonville, FL. During this tour, I was sent back overseas and provided support to CENTCOM. During this period, I also met my wife Lexi. In 2023, I transferred to NAS Key West where I serve as a Tactical Air Controller. I had my son, Eli, here and have made plenty of memories with my wife. I have spent much of this period focusing on cybersecurity education and certifications. I will be leaving the Navy in 2026 and will be working as a Cybersecurity Administrator. 
+      I am originally from Rochester, NY, and attended both Hilton and Brockport High Schools. Upon graduation in 2017, I enlisted in the US Navy as an Operations Specialist. I spent 3 years abroad in Rota, Spain. During this tour, I traveled to 12 countries and gained valuable experience in technology. In 2021, I transferred to Jacksonville, FL. During this tour, I was sent back overseas and provided support to CENTCOM. During this period, I also met my wife Lexi. In 2023, I transferred to NAS Key West where I serve as a Tactical Air Controller. I had my son, Eli, here and have made plenty of memories with my wife. I have spent much of this period focusing on cybersecurity education and certifications. I will be leaving the Navy in 2026 and will be working as a Cybersecurity Administrator. 
     </div>
   </details>
 
@@ -78,7 +81,7 @@ title: Home
 /* Rotating Quotes styling */
 #quote-box {
   position: fixed;
-  bottom: 20px;          /* Bottom-left corner */
+  bottom: 20px;
   left: 20px;
   max-width: 400px;
   background: #2c2c2c;
@@ -91,6 +94,22 @@ title: Home
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
+  z-index: 9999;
+}
+
+/* Visitor Info styling */
+#visitor-info {
+  position: fixed;
+  top: 20px;
+  right: 20px;           /* Right-hand side */
+  max-width: 300px;
+  background: #2c2c2c;
+  color: #3b82f6;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   z-index: 9999;
 }
 
@@ -202,5 +221,10 @@ function updateQuote() {
 
 updateQuote();
 setInterval(updateQuote, 30000);
-</script>
 
+// Visitor IP & Location
+async function fetchVisitorInfo() {
+  try {
+    const response = await fetch("https://ipapi.co/json/");
+    const data = await response.json();
+    document.getElementById("visitor-info").textContent =
