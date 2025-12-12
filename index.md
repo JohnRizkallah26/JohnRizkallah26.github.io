@@ -5,6 +5,9 @@ title: Home
 
 # Welcome to My Site!
 
+<!-- Live GMT Clock -->
+<div id="gmt-clock"></div>
+
 <nav class="dropdown-nav">
   <details>
     <summary>👤 About</summary>
@@ -13,16 +16,15 @@ title: Home
     </div>
   </details>
 
-<details>
-  <summary>💻 Projects</summary>
-  <div class="dropdown-content">
-    <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a><br>
-    <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Walkthrough" target="_blank">Windows Group Policy Walkthrough</a><br>
-    <a href="https://github.com/JohnRizkallah26/Windows-Event-Viewer-Basics" target="_blank">Windows Event Viewer Basics</a><br>
-    <a href="https://github.com/JohnRizkallah26/Basic-Ubuntu-Server-Hardening" target="_blank">Basic Ubuntu Server Hardening</a> 
-  </div>
-</details>
-
+  <details>
+    <summary>💻 Projects</summary>
+    <div class="dropdown-content">
+      <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a><br>
+      <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Walkthrough" target="_blank">Windows Group Policy Walkthrough</a><br>
+      <a href="https://github.com/JohnRizkallah26/Windows-Event-Viewer-Basics" target="_blank">Windows Event Viewer Basics</a><br>
+      <a href="https://github.com/JohnRizkallah26/Basic-Ubuntu-Server-Hardening" target="_blank">Basic Ubuntu Server Hardening</a> 
+    </div>
+  </details>
 
   <details>
     <summary>✍️ Education/Credentials</summary>
@@ -34,17 +36,17 @@ title: Home
     </div>
   </details>
 
- <details>
-  <summary>📚 Helpful Publications</summary>
-  <div class="dropdown-content">
-    <a href="https://www.nist.gov" target="_blank">Visit NIST Website</a><br>
-    <a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework (CSF)</a><br>
-    <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank">NIST SP 800-53 Security Controls</a><br>
-    <a href="https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final" target="_blank">NIST SP 800-171 (CUI Protection)</a><br>
-    <a href="https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final" target="_blank">NIST SP 800-61 Incident Response Guide</a><br>
-    <a href="https://csrc.nist.gov/projects/risk-management" target="_blank">NIST Risk Management Framework (RMF)</a>
-  </div>
-</details>
+  <details>
+    <summary>📚 Helpful Publications</summary>
+    <div class="dropdown-content">
+      <a href="https://www.nist.gov" target="_blank">Visit NIST Website</a><br>
+      <a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework (CSF)</a><br>
+      <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank">NIST SP 800-53 Security Controls</a><br>
+      <a href="https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final" target="_blank">NIST SP 800-171 (CUI Protection)</a><br>
+      <a href="https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final" target="_blank">NIST SP 800-61 Incident Response Guide</a><br>
+      <a href="https://csrc.nist.gov/projects/risk-management" target="_blank">NIST Risk Management Framework (RMF)</a>
+    </div>
+  </details>
 </nav>
 
 ---
@@ -54,6 +56,22 @@ title: Home
 </div>
 
 <style>
+/* GMT Clock styling */
+#gmt-clock {
+  position: fixed;       /* Keeps it visible while scrolling */
+  top: 20px;             /* Distance from top */
+  left: 20px;            /* Distance from left */
+  background: #2c2c2c;   /* Match your nav styling */
+  color: #3b82f6;        /* Blue text for consistency */
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 9999;         /* Ensure it stays on top */
+}
+
 /* Navigation container */
 .dropdown-nav {
   display: flex;
@@ -115,7 +133,6 @@ title: Home
   text-decoration: underline;
 }
 
-
 /* Image gallery styling */
 .image-gallery {
   display: flex;
@@ -131,3 +148,16 @@ title: Home
   border: 3px solid #3b82f6;
 }
 </style>
+
+<script>
+// Function to update GMT clock
+function updateGMTClock() {
+  const now = new Date();
+  const gmtTime = now.toUTCString().split(" ")[4]; // Extract HH:MM:SS
+  document.getElementById("gmt-clock").textContent = "GMT Time: " + gmtTime;
+}
+
+// Update every second
+setInterval(updateGMTClock, 1000);
+updateGMTClock(); // Initial call
+</script>
