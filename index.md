@@ -18,7 +18,8 @@ title: Home
   <div class="dropdown-content">
     <a href="https://github.com/JohnRizkallah26/home-network-recon-lab" target="_blank">Home Network Recon Lab</a><br>
     <a href="https://github.com/JohnRizkallah26/Windows-Group-Policy-Walkthrough" target="_blank">Windows Group Policy Walkthrough</a><br>
-    <a href="https://github.com/JohnRizkallah26/Windows-Event-Viewer-Basics" target="_blank">Windows Event Viewer Basics</a>
+    <a href="https://github.com/JohnRizkallah26/Windows-Event-Viewer-Basics" target="_blank">Windows Event Viewer Basics</a><br>
+    <a href="https://github.com/JohnRizkallah26/Basic-Ubuntu-Server-Hardening" target="_blank">Basic Ubuntu Server Hardening</a> 
   </div>
 </details>
 
