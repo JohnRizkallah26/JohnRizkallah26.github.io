@@ -8,6 +8,9 @@ title: Home
 <!-- Live GMT Clock -->
 <div id="gmt-clock"></div>
 
+<!-- Rotating Quotes -->
+<div id="quote-box"></div>
+
 <nav class="dropdown-nav">
   <details>
     <summary>👤 About</summary>
@@ -58,18 +61,37 @@ title: Home
 <style>
 /* GMT Clock styling */
 #gmt-clock {
-  position: fixed;       /* Keeps it visible while scrolling */
-  top: 20px;             /* Distance from top */
-  left: 20px;            /* Distance from left */
-  background: #2c2c2c;   /* Match your nav styling */
-  color: #3b82f6;        /* Blue text for consistency */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #2c2c2c;
+  color: #3b82f6;
   padding: 10px 15px;
   border-radius: 6px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  z-index: 9999;         /* Ensure it stays on top */
+  z-index: 9999;
+}
+
+/* Rotating Quotes styling */
+#quote-box {
+  position: fixed;
+  bottom: 20px;          /* Bottom-left corner */
+  left: 20px;
+  max-width: 400px;
+  background: #2c2c2c;
+  color: #3b82f6;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  z-index: 9999;
 }
 
 /* Navigation container */
@@ -111,25 +133,25 @@ title: Home
   margin-top: 8px;
   padding: 10px;
   background: #e6e6e6;
-  color: #1d4ed8;              /* Dark blue text */
+  color: #1d4ed8;
   border: 1px solid #888;
   border-radius: 6px;
-  font-family: "Segoe UI", Arial, sans-serif; /* Modern, clean font */
-  font-weight: normal;         /* Uniform weight */
-  font-size: 15px;             /* Slightly modern sizing */
-  line-height: 1.6;            /* Better readability */
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 /* Style links inside dropdowns */
 .dropdown-content a {
-  color: #1d4ed8;              /* Dark blue links */
+  color: #1d4ed8;
   text-decoration: none;
   font-weight: normal;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .dropdown-content a:hover {
-  color: #0f172a;              /* Even darker blue on hover */
+  color: #0f172a;
   text-decoration: underline;
 }
 
@@ -156,8 +178,29 @@ function updateGMTClock() {
   const gmtTime = now.toUTCString().split(" ")[4]; // Extract HH:MM:SS
   document.getElementById("gmt-clock").textContent = "GMT Time: " + gmtTime;
 }
-
-// Update every second
 setInterval(updateGMTClock, 1000);
-updateGMTClock(); // Initial call
+updateGMTClock();
+
+// Rotating Quotes
+const quotes = [
+  "“All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope.” – Winston Churchill",
+  "“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt",
+  "“Ask not what your country can do for you – ask what you can do for your country.” – John F. Kennedy"
+];
+
+let currentIndex = 0;
+const quoteBox = document.getElementById("quote-box");
+
+function updateQuote() {
+  quoteBox.style.opacity = 0;
+  setTimeout(() => {
+    quoteBox.textContent = quotes[currentIndex];
+    quoteBox.style.opacity = 1;
+    currentIndex = (currentIndex + 1) % quotes.length;
+  }, 1500);
+}
+
+updateQuote();
+setInterval(updateQuote, 30000);
 </script>
+
