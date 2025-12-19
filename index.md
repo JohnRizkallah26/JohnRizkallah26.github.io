@@ -171,35 +171,8 @@ setInterval(updateGMTClock, 1000);
 updateGMTClock();
 
 // Rotating Quotes
-const quotes = [
-  "“All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope.” – Winston Churchill",
-  "“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt",
-  "“Ask not what your country can do for you – ask what you can do for your country.” – John F. Kennedy"
-];
-let currentIndex = 0;
-const quoteBox = document.getElementById("quote-box");
 
-function updateQuote() {
-  quoteBox.style.opacity = 0;
-  setTimeout(() => {
-    quoteBox.textContent = quotes[currentIndex];
-    quoteBox.style.opacity = 1;
-    currentIndex = (currentIndex + 1) % quotes.length;
-  }, 1500);
-}
-updateQuote();
-setInterval(updateQuote, 30000);
 
-// Visitor IP & Location
-async function fetchVisitorInfo() {
-  try {
-    const response = await fetch("https://ipapi.co/json/");
-    const data = await response.json();
-    document.getElementById("visitor-info").textContent =
-      "Your IP: " + data.ip + " | Location: " + data.city + ", " + data.country_name;
-  } catch (error) {
-    document.getElementById("visitor-info").textContent = "Unable to fetch visitor info.";
-  }
 }
 fetchVisitorInfo();
 </script>
