@@ -84,30 +84,7 @@ title: Home
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
-/* Visitor Info */
-#visitor-info {
-  background: #2c2c2c;
-  color: #3b82f6;
-  padding: 10px;
-  border-radius: 6px;
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
 
-/* Rotating Quotes */
-#quote-box {
-  background: #2c2c2c;
-  color: #3b82f6;
-  padding: 12px;
-  border-radius: 6px;
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
-  font-style: italic;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  opacity: 0;
-  transition: opacity 1.5s ease-in-out;
-}
 
 /* Navigation container */
 .dropdown-nav {
